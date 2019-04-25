@@ -1,11 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Runtime.Serialization;
-using System.Text;
 
 namespace CodeContract
 {
-    class ContractViolationException : Exception
+    internal class ContractViolationException : Exception
     {
         public ContractViolationException()
         {
